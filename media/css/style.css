@@ -1,0 +1,165 @@
+/*  
+* This CSS file was designed by Brooks Swinnerton
+* for the sole purpose of a group project for
+* CIS 102W at Pace University
+* 
+* I worked hard on this, so no copying without
+* my permission please
+* 
+* Enjoy!
+*/
+
+body {
+	color: #000;
+	font-size: small;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+	background-color: #6a8c56;
+}
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border: 1px solid #333;
+}
+#masthead {
+	text-align: right;
+	width: 897px;
+	height: 110px;
+	padding-top: 7px;
+	padding-left: 3px;
+	background-color: #b8ccad;
+}
+#navigation {
+	background-color: #F0F0F0;
+	border-top: 1px solid #5B5C44;
+	border-bottom: 1px solid #E0E0E0;
+	height: 28px;
+}
+#footer {
+	text-align: center;
+	background-color: #444444;
+	width: 100%;
+	overflow: hidden;
+	padding: 0px;
+	border-top: 1px solid #000000;
+}
+img {  
+	border-style: none;
+}
+
+
+/* Styles for Masthead */
+#masthead img {
+	float: left;
+	margin-left: -3px;
+	margin-top: 0px;
+}
+
+/* Styles for Navigation */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	color: #000;
+	text-decoration: none;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	display: block;
+}
+#navigation a:hover {
+	background-color: #E0E0E0;
+	padding-bottom: 7px;
+}
+#home_ul {
+	margin-left: 190px;
+}
+
+/* Styles for Content */
+h1 {
+	color: #444444;
+	font-size: 2.0em;
+}
+h2 {
+	color: #444444;
+	font-size: 1.75em;
+}
+h3 {
+	color: #444444;
+	font-size: 1.5em;
+}
+h4 {
+	color: #444444;
+	font-size: 1.25em;
+}
+h5 {
+	color: #444444;
+	font-size: 1em;
+}
+h6 {
+	color: #444444;
+	font-size: 0.5em;
+}
+
+/* Styles for Footer */
+#footer p {
+	color: #fff;
+	font-size: x-small;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+#footer a {
+	color: #FDFFE5;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Styles for Links */
+a {
+	color: #456;
+	text-decoration: underline;
+}
+a:hover {
+	color: #965;
+	text-decoration: underline;
+}
+
+/* Extras */
+#page_content {
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 450px;
+}
+#selected a {
+	color: #000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 19px;
+	border-left: 1px solid #E0E0E0;
+	border-right: 1px solid #E0E0E0;
+}
+#selected_home a {
+	color: #000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 19px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #E0E0E0;
+}
+#selected_home a:hover {
+	padding-bottom: 5px;
+	background-color: #F8F8F8;
+}
+#selected a:hover {
+	padding-bottom: 5px;
+	background-color: #F8F8F8;
+}
